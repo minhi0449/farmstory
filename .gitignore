@@ -1,1 +1,54 @@
+# Eclipse와 Java 컴파일 관련 파일들 제외
 /build/
+/target/
+/bin/
+
+# Eclipse 설정 파일들 제외
+.metadata
+.recommenders
+.settings/
+.loadpath
+.project
+.classpath
+
+# 운영체제 관련 임시 파일들 제외
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Java 컴파일 결과물 제외
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE 관련 임시 파일들 제외
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 서버 로그 및 런타임 파일들 제외
+/logs/
+/temp/
+
+# 데이터베이스 관련 임시 파일들 제외
+*.db
+*.sqlite
+*.sqlite3
+
+# Maven 관련 파일들 제외
+.mvn/
+mvnw
+mvnw.cmd
