@@ -1,82 +1,264 @@
-# 팜스토리 프로젝트 (Farmstory Project)
-> JSP 기반 커뮤니티형 농산물 쇼핑몰 웹 프로젝트
+# 🌾 팜스토리 (Farmstory) 프로젝트
 
-## 프로젝트 개요
+<div align="center">
 
-- **카테고리**: 커뮤니티형 농산물 쇼핑몰
-- **주요 기능**: 회원가입, 장바구니, 게시판, 관리자 페이지 등
-- **개발 기간**: 2025.05 ~ 2025.06
-- **참여 인원**: 3명 (프론트엔드 1, 백엔드 2)
+![프로젝트 로고](https://img.shields.io/badge/Farmstory-농산물_쇼핑몰-green?style=for-the-badge)
 
+**JSP 기반 커뮤니티형 농산물 쇼핑몰 웹 애플리케이션**
 
+</div>
 
-## 기술 스택
+---
 
-- Java / JSP / Servlet / JDBC  
-- HTML / CSS / JavaScript / Thymeleaf  
-- MySQL / Apache Tomcat  
-- Eclipse IDE / Maven
+## 📋 프로젝트 개요
 
+**팜스토리**는 농산물을 온라인으로 판매하는 커뮤니티형 쇼핑몰입니다. 농부와 소비자를 직접 연결하여 신선한 농산물을 합리적인 가격에 제공하며, 커뮤니티 기능을 통해 농업 정보와 경험을 공유할 수 있는 플랫폼입니다.
 
-## 개발 환경
+| 항목 | 내용 |
+|------|------|
+| **프로젝트명** | 팜스토리 (Farmstory) |
+| **프로젝트 유형** | 커뮤니티형 농산물 쇼핑몰 |
+| **개발 기간** | 2025.05 ~ 2025.06 (2개월) |
+| **팀 구성** | 3명 (프론트엔드 1명, 백엔드 2명) |
+| **개발 환경** | Java 11, JSP, MySQL, Apache Tomcat |
 
-- **백엔드**  
-  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white" alt="Java">
-  <img src="https://img.shields.io/badge/JSP-E34F26?style=flat-square&logo=java&logoColor=white" alt="JSP">
-  <img src="https://img.shields.io/badge/JDBC-00618A?style=flat-square&logoColor=white" alt="JDBC">
+---
 
-- **프론트엔드**  
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=Thymeleaf&logoColor=white" alt="Thymeleaf">
+## 🛠 기술 스택
 
-- **데이터베이스(DB)**  
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white" alt="MySQL">
+### 🔧 백엔드 (Backend)
+<div>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+<img src="https://img.shields.io/badge/JSP-007396?style=for-the-badge&logo=java&logoColor=white" alt="JSP">
+<img src="https://img.shields.io/badge/Servlet-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Servlet">
+<img src="https://img.shields.io/badge/JDBC-00618A?style=for-the-badge&logo=java&logoColor=white" alt="JDBC">
+</div>
 
-- **서버**  
-  <img src="https://img.shields.io/badge/Tomcat-F8DC75?style=flat-square&logo=Apache-Tomcat&logoColor=black" alt="Tomcat">
+### 🎨 프론트엔드 (Frontend)
+<div>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=Thymeleaf&logoColor=white" alt="Thymeleaf">
+</div>
 
-- **개발 도구(IDE)**  
-  <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=Eclipse&logoColor=white" alt="Eclipse">
+### 🗄 데이터베이스 (Database)
+<div>
+<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+</div>
 
-- **빌드 도구**  
-  <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=Apache-Maven&logoColor=white" alt="Maven">
+### 🚀 서버 & 도구 (Server & Tools)
+<div>
+<img src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black" alt="Tomcat">
+<img src="https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white" alt="Eclipse">
+<img src="https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white" alt="Maven">
+</div>
 
+---
 
-## 주요 기능
+## ⚡ 주요 기능
 
-### 👤 사용자 기능
-- 회원가입, 로그인, 로그아웃
-- 상품 목록 / 카테고리 / 상세보기
-- 장바구니 담기, 주문하기
+### 👤 사용자 기능 (User Features)
 
-### 📞 고객지원
-- 공지사항
-- Q&A, FAQ
+| 기능 카테고리 | 상세 기능 | 설명 |
+|---------------|-----------|------|
+| **회원 관리** | 회원가입 | 이메일 중복 확인, 입력 검증 |
+| | 로그인/로그아웃 | 세션 관리, 자동 로그인 |
+| | 마이페이지 | 개인정보 수정, 주문내역 조회 |
+| **상품 관리** | 상품 목록 | 카테고리별 상품 조회 |
+| | 상품 상세보기 | 상품 정보, 리뷰, 평점 확인 |
+| | 상품 검색 | 키워드 기반 상품 검색 |
+| **주문 관리** | 장바구니 | 상품 담기, 수량 변경, 삭제 |
+| | 주문하기 | 배송지 입력, 결제 처리 |
+| | 주문내역 | 주문 상태 확인, 배송 추적 |
 
-### 🛠 관리자 기능
-- 상품 등록, 수정, 삭제
-- 회원 관리, 게시글 관리
+### 💬 커뮤니티 기능 (Community Features)
 
+| 기능 카테고리 | 상세 기능 | 설명 |
+|---------------|-----------|------|
+| **고객지원** | 공지사항 | 사이트 소식, 이벤트 공지 |
+| | Q&A 게시판 | 1:1 문의, 답변 관리 |
+| | FAQ | 자주 묻는 질문 목록 |
+| **커뮤니티** | 자유게시판 | 농업 정보, 경험 공유 |
+| | 후기게시판 | 상품 후기, 평점 작성 |
 
-## 📁 폴더 구조
+### 🛠 관리자 기능 (Admin Features)
+
+| 기능 카테고리 | 상세 기능 | 설명 |
+|---------------|-----------|------|
+| **상품 관리** | 상품 등록 | 이미지 업로드, 카테고리 설정 |
+| | 상품 수정/삭제 | 재고 관리, 가격 변경 |
+| | 카테고리 관리 | 분류 체계 관리 |
+| **회원 관리** | 회원 목록 | 회원 정보 조회, 상태 관리 |
+| | 권한 관리 | 관리자 권한 부여/회수 |
+| **주문 관리** | 주문 처리 | 주문 확인, 배송 관리 |
+| | 매출 통계 | 일별/월별 매출 분석 |
+| **게시판 관리** | 게시글 관리 | 부적절한 글 삭제, 공지 등록 |
+| | 댓글 관리 | 댓글 승인/삭제 |
+
+---
+
+## 📁 프로젝트 구조
+
 ```
 farmstory/
-┣ src/
-┃ ┣ controller/
-┃ ┣ dao/
-┃ ┣ model/
-┃ ┗ view/
-┣ webapp/
-┃ ┣ WEB-INF/
-┃ ┣ css/
-┃ ┣ js/
-┃ ┗ jsp/
+├── 📂 src/main/java/
+│   ├── 📂 controller/          # 컨트롤러 (요청 처리)
+│   │   ├── UserController.java
+│   │   ├── ProductController.java
+│   │   ├── OrderController.java
+│   │   └── AdminController.java
+│   ├── 📂 dao/                 # 데이터 접근 객체
+│   │   ├── UserDAO.java
+│   │   ├── ProductDAO.java
+│   │   └── OrderDAO.java
+│   ├── 📂 dto/                 # 데이터 전송 객체
+│   │   ├── UserDTO.java
+│   │   ├── ProductDTO.java
+│   │   └── OrderDTO.java
+│   ├── 📂 service/             # 비즈니스 로직
+│   │   ├── UserService.java
+│   │   ├── ProductService.java
+│   │   └── OrderService.java
+│   └── 📂 util/                # 유틸리티 클래스
+│       ├── DBUtil.java
+│       └── FileUtil.java
+├── 📂 src/main/webapp/
+│   ├── 📂 WEB-INF/
+│   │   ├── web.xml
+│   │   └── 📂 views/           # JSP 뷰 파일
+│   │       ├── user/
+│   │       ├── product/
+│   │       ├── order/
+│   │       └── admin/
+│   ├── 📂 resources/
+│   │   ├── 📂 css/             # 스타일시트
+│   │   ├── 📂 js/              # 자바스크립트
+│   │   └── 📂 images/          # 이미지 파일
+│   └── 📂 upload/              # 업로드 파일
+└── 📄 pom.xml                  # Maven 설정 파일
 ```
 
+---
 
-## DB 설계 (ERD)
+## 🎯 핵심 구현 사항
 
+### 🔒 보안 기능
+- **입력 데이터 검증**: XSS, SQL Injection 방지
+- **세션 관리**: 로그인 상태 유지 및 보안
+- **권한 관리**: 사용자/관리자 접근 권한 제어
 
+### 📱 사용자 경험 (UX)
+- **반응형 웹 디자인**: 모바일/태블릿/PC 대응
+- **직관적인 UI**: 쉬운 네비게이션과 사용법
+- **빠른 로딩 속도**: 이미지 최적화 및 캐싱
 
+### 🔧 기술적 특징
+- **MVC 패턴**: 유지보수성과 확장성 고려
+- **커넥션 풀**: 데이터베이스 성능 최적화
+- **파일 업로드**: 상품 이미지 관리 기능
+
+---
+
+## 📊 데이터베이스 설계
+
+### 주요 테이블 구조
+
+| 테이블명 | 주요 컬럼 | 설명 |
+|----------|-----------|------|
+| **users** | uid, name, email, password | 사용자 정보 |
+| **products** | pid, name, price, category, stock | 상품 정보 |
+| **orders** | oid, uid, total_price, order_date | 주문 정보 |
+| **order_items** | oid, pid, quantity, price | 주문 상세 |
+| **cart** | uid, pid, quantity | 장바구니 |
+| **articles** | aid, title, content, writer | 게시글 |
+
+---
+
+## 🚀 배운 점 & 성과
+
+### 💡 기술적 성장
+- **JSP/Servlet 이해**: 웹 애플리케이션 동작 원리 습득
+- **데이터베이스 설계**: 효율적인 테이블 구조 설계 경험
+- **MVC 패턴**: 체계적인 코드 구조 이해
+
+### 🤝 협업 경험
+- **Git 협업**: 브랜치 전략과 코드 리뷰 경험
+- **역할 분담**: 프론트엔드/백엔드 협업 프로세스 이해
+- **의사소통**: 기술적 이슈 해결을 위한 팀 커뮤니케이션
+
+### 🎯 문제 해결
+- **성능 최적화**: 쿼리 최적화와 이미지 처리 개선
+- **보안 강화**: 입력 검증과 세션 관리 구현
+- **사용자 경험**: 직관적인 UI/UX 설계
+
+---
+
+## 📝 Git Commit Message 예시 (실무 스타일)
+
+### 포트폴리오 README 업데이트
+
+```
+docs: Update farmstory project portfolio documentation
+
+프로젝트 README 파일을 전면 개선하여 포트폴리오 품질 향상
+기술 스택, 주요 기능, 프로젝트 구조를 체계적으로 재정리
+
+- 기술 스택 배지를 추가하여 시각적 가독성 개선
+- 주요 기능을 사용자/커뮤니티/관리자 영역으로 분류하여 표 형태로 정리
+- 프로젝트 구조를 트리 형태로 명확하게 표현
+- 핵심 구현 사항과 배운 점을 추가하여 학습 성과 강조
+- 데이터베이스 설계 섹션을 추가하여 기술적 역량 어필
+```
+
+### 기타 개발 관련 커밋 메시지 예시
+
+```
+feat: Add user registration validation logic
+
+회원가입 시 입력 데이터 검증 로직 구현
+이메일 중복 확인 및 비밀번호 강도 검사 기능 추가
+
+- 이메일 형식 및 중복 검사 API 연동
+- 비밀번호 8자 이상, 특수문자 포함 검증 로직 구현
+- 실시간 입력 검증 피드백 UI 개선
+```
+
+```
+fix: Resolve cart quantity update bug in mobile view
+
+모바일 환경에서 장바구니 수량 변경 시 발생하는 오류 수정
+터치 이벤트와 클릭 이벤트 충돌로 인한 중복 요청 문제 해결
+
+- 모바일 터치 이벤트 핸들링 로직 개선
+- AJAX 요청 중복 방지를 위한 디바운싱 적용
+```
+
+```
+refactor: Improve database connection pool management
+
+데이터베이스 커넥션 풀 관리 로직을 개선하여 성능 최적화
+기존 단순 연결 방식에서 HikariCP 도입으로 안정성 향상
+
+- HikariCP 라이브러리 도입으로 커넥션 풀 성능 개선
+- 커넥션 누수 방지를 위한 try-with-resources 패턴 적용
+- 데이터베이스 연결 타임아웃 설정 최적화
+```
+
+---
+
+## 🔗 관련 링크
+
+- **GitHub Repository**: [프로젝트 코드 보기](https://github.com/username/farmstory)
+- **라이브 데모**: [웹사이트 체험하기](https://farmstory-demo.com)
+- **프로젝트 발표**: [발표 자료 보기](https://slides.com/farmstory-presentation)
+
+---
+
+<div align="center">
+
+**📧 Contact**: your.email@example.com | **📱 Phone**: 010-1234-5678
+
+*이 프로젝트를 통해 웹 개발의 전체적인 흐름을 이해하고, 실무에 필요한 기술들을 습득할 수 있었습니다.*
+
+</div>
